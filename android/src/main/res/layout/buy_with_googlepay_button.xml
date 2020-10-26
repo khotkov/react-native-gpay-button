@@ -3,21 +3,22 @@
     android:clickable="true"
     android:focusable="true"
     android:layout_width="match_parent"
-    android:layout_height="48sp"
+    android:layout_height="60sp"
     android:background="@drawable/googlepay_button_no_shadow_background"
-    android:padding="2sp"
+    android:padding="0sp"
     android:contentDescription="@string/buy_with_googlepay_button_content_description">
     <LinearLayout
         android:duplicateParentState="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="21sp"
         android:weightSum="2"
         android:gravity="center_vertical"
         android:orientation="vertical">
         <ImageView
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:scaleType="fitCenter"
             android:duplicateParentState="true"
             android:src="@drawable/buy_with_googlepay_button_content"/>
